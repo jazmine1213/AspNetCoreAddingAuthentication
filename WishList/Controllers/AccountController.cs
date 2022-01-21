@@ -41,8 +41,7 @@ namespace WishList.Controllers
                 user.Email = model.Email;
                 string userPassword = model.Password;
                 _userManager.CreateAsync(user);
-                
-                if()
+               
                 RedirectToAction("Index", "Home");
             }
 
